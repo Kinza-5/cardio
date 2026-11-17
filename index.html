@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5th-landing page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <div class="top">
+        <div class="head">
+            <div class="dot"></div>
+            <span>24/7 Emergency:</span>
+            <p class="p1">+1(800) CARDIO</p>
+            <p class="p2">|cardio@cardiocare.com</p>
+            <p class="p3">Mon-Sat: 8am-8pm</p>
+            <p class="p4">|Emergency:24/7</p>
+        </div>
+    </div>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="data:image/jpeg;base64,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"
+                    alt="">
+                <div class="lg">
+                    <h2>CardioCare</h2>
+                    <p>Heart Specialists</p>
+                </div>
+            </div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#department">Departement</a>
+                <a href="#appoinment">Appointments</a>
+                <a href="#blog">Blogs</a>
+                <a href="#contect">Contect</a>
+            </nav>
+            <div class="btn">
+                <button class="btn1"> <i class="fa-solid fa-receipt"></i>
+                    <h2>Book Appointments</h2>
+                </button>
+
+
+            </div>
+        </div>
+    </header>
+
+
+    <section class="hero1" id="home">
+        <div class="hearts">
+
+            <div class="box">
+                <i class="fa-solid fa-heart heart"></i>
+                <span>Board Certified Cardiologist</span>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-wave-square wave"></i>
+                <span>Advanced Diagnostic</span>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-shield-halved shield"></i>
+                <span>Patient-Centered Care</span>
+            </div>
+
+        </div>
+
+        <div class="h1">
+            <h1>Expert Heart Care <span>For A Healthier</span> Life</h1>
+            <p>Providing advanced cardiology services, heart health consultations, preventive care, diagnostics, and
+                personalized treatment plans for patients of all ages.</p>
+        </div>
+        <div class="btn">
+            <button class="btn1"> <i class="fa-solid fa-receipt"></i>
+                <h2>Book Appointments</h2>
+            </button>
+
+            <button class="btn2">
+                <i class="fa-regular fa-clock"></i>
+                <h2>Explore Services</h2>
+            </button>
+        </div>
+
+
+
+
+        <div class="right">
+
+            <div class="rate">
+                <i class="fa-solid fa-heart"></i>
+
+                <div>
+                    <h3>Heart Rate</h3>
+                    <p>72 BPM Normal</p>
+                </div>
+            </div>
+
+            <div class="doctor">
+                <img src="./assets/doctor.png" alt="Doctors">
+            </div>
+            <div class="div">
+                <i class="fa-regular fa-clock"></i>
+
+                <div>
+                    <h3>Consultation</h3>
+                    <p>Available Today</p>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="hero2">
+        <div class="dot2"></div>
+        <h1>Need Immediate Cardiac Care?</h1>
+        <p>Our emergency team is available 24/7 to help you</p>
+        <button class="b3"><i class="fa-solid fa-phone-volume"></i>
+            <h4>Call Emergency Support</h4>
+        </button>
+    </section>
+
+
+    <section class="form">
+        <div class="book"><i class="fa-solid fa-address-book"></i>
+            <h4>BOOK NOW</h4>
+        </div>
+        <h1>Schedule Your Appointment</h1>
+        <p>Quick, simple online booking. Our team will confirm within 2 hours during working hours.</p>
+
+        <form>
+            <label>
+                Patient Name *
+                <input type="text" placeholder="Your full name">
+            </label>
+
+            <label>
+                Email Address *
+                <input type="email" placeholder="Your@email.com">
+            </label>
+
+            <label>
+                Phone Number *
+                <input type="tel" placeholder="+92 234684895">
+            </label>
+
+            <label>
+                Preferred Date *
+                <input type="date">
+            </label>
+
+            <label>
+                Department
+                <select>
+                    <option selected disabled>Select Department</option>
+                    <option>Cardiology</option>
+                    <option>Heart Surgery</option>
+                    <option>Cardiac Care</option>
+                    <option>General Medicine</option>
+                </select>
+            </label>
+
+            <label>
+                Message
+                <textarea placeholder="Briefly describe your concern"></textarea>
+            </label>
+
+            <button type="submit">Schedule Appointment</button>
+        </form>
+
+    </section>
+
+
+    <section class="about">
+        <div class="doctor2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxlZrvtOypejlGC-CKgJCFWO9Ja_hVLE7Impbp5sqCKw&s=10"
+                alt="Doctor">
+
+            <h2>Dr. Jonathan Carter</h2>
+            <p>Senior Cardiologist, FACC</p>
+
+            <div class="cert">
+                <i class="fa-solid fa-award"></i>
+                <div>
+                    <h4>Board Certified</h4>
+                    <span>American Board of Cardiology</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="heading">
+            <h1>Dedicated to Your Heart Health
+                with 20+ Years of Expertise
+            </h1>
+
+            <p class="pra">
+                Dr. Jonathan Carter is a board-certified cardiologist
+                with over two decades of experience in diagnosing
+                and treating complex cardiovascular conditions.
+                He specializes in interventional cardiology,
+                preventive care, and cardiac rehabilitation.
+            </p>
+
+            <div class="price">
+                <div class="mon">
+                    <h2>20+</h2>
+                    <p>Years Experience</p>
+                </div>
+
+                <div class="mon">
+                    <h2>10K+</h2>
+                    <p>Patients Treated</p>
+                </div>
+
+                <div class="mon">
+                    <h2>15+</h2>
+                    <p>Certifications</p>
+                </div>
+
+                <div class="mon">
+                    <h2>50+</h2>
+                    <p>Research Papers</p>
+                </div>
+            </div>
+
+            <div class="award">
+                <p><i class="fa-solid fa-check"></i> MD, Harvard Medical School, Class of 2001</p>
+                <p><i class="fa-solid fa-check"></i> Fellowship in Interventional Cardiology, Mayo Clinic</p>
+                <p><i class="fa-solid fa-check"></i> Fellow of the American College of Cardiology (FACC)</p>
+                <p><i class="fa-solid fa-check"></i> American Heart Association Certified Specialist</p>
+            </div>
+
+            <button class="b5">
+                <i class="fa-regular fa-calendar-plus"></i>
+                Book a Consultation
+            </button>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="services">
+
+        <div class="head">
+            <h1>Comprehensive Cardiac Care Services</h1>
+            <p>From diagnostics to rehabilitation, we offer a full spectrum of cardiology
+                <br> services tailored to your heart health needs.
+            </p>
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icon red">
+                    <i class="fa-solid fa-wave-square"></i>
+                </div>
+                <h3>Heart Health Consultation</h3>
+                <p>Comprehensive cardiac assessments, risk evaluations, and personalized preventive care plans to keep
+                    your heart healthy.</p>
+                <a href="#">Learn More </a>
+            </div>
+
+            <div class="card">
+                <div class="icon blue">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                </div>
+                <h3>ECG & Diagnostics</h3>
+                <p>Advanced electrocardiography, echocardiography, stress testing, and Holter monitoring for accurate
+                    heart condition assessment.</p>
+                <a href="#">Learn More </a>
+            </div>
+
+            <div class="card">
+                <div class="icon purple">
+                    <i class="fa-solid fa-stethoscope"></i>
+                </div>
+                <h3>Hypertension Management</h3>
+                <p>Personalized blood pressure control programs combining medication management, lifestyle coaching, and
+                    continuous monitoring.</p>
+                <a href="#">Learn More </a>
+            </div>
+
+            <div class="card">
+                <div class="icon green">
+                    <i class="fa-solid fa-shield-heart"></i>
+                </div>
+                <h3>Cardiac Rehabilitation</h3>
+                <p>Structured recovery programs for heart attack survivors and surgery patients to restore strength and
+                    improve quality of life.</p>
+                <a href="#">Learn More </a>
+            </div>
+
+            <div class="card">
+                <div class="icon yellow">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3>Preventive Cardiology</h3>
+                <p>Proactive cardiovascular risk reduction through lifestyle modification, nutritional guidance, and
+                    targeted preventive therapies.</p>
+                <a href="#">Learn More </a>
+            </div>
+
+            <div class="card">
+                <div class="icon pink">
+                    <i class="fa-solid fa-truck-medical"></i>
+                </div>
+                <h3>Emergency Cardiac Support</h3>
+                <p>24/7 rapid response care for acute heart conditions including chest pain, arrhythmias, and cardiac
+                    emergencies requiring immediate attention.</p>
+                <a href="#">Call Now →</a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="squre">
+
+        <div class="h6">
+
+            <span><i class="fa-solid fa-message"></i>Testimonials</span>
+            <h1>The CardioCare Difference</h1>
+            <p>Excellence in cardiac care with a patient-first approach backed by cutting-<br>edge technology.</p>
+        </div>
+
+        <div class="blacks">
+
+            <div class="black">
+                <div class="icons icon-red">
+                    <i class="fa-solid fa-user-group"></i>
+                </div>
+                <h3>Expert Medical Team</h3>
+                <p>Board-certified cardiologists with decades of combined clinical experience.</p>
+            </div>
+
+            <div class="black">
+                <div class="icons icon-blue">
+                    <i class="fa-solid fa-microscope"></i>
+                </div>
+                <h3>Advanced Technology</h3>
+                <p>State-of-the-art diagnostic equipment for precise, accurate assessments.</p>
+            </div>
+
+            <div class="black">
+                <div class="icons icon-green">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                </div>
+                <h3>Patient-Centered Care</h3>
+                <p>Personalized treatment plans built around your unique health profile.</p>
+            </div>
+
+            <div class="black">
+                <div class="icons icon-yellow">
+                    <i class="fa-regular fa-hospital"></i>
+                </div>
+                <h3>Modern Facilities</h3>
+                <p>Comfortable, fully-equipped clinic designed for the best patient experience.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="numbers">
+
+        <div class="numbox">
+            <h1>20</h1>
+            <p>Years of Experience</p>
+        </div>
+
+        <div class="numbox">
+            <h1>10,000+</h1>
+            <p>Patients Treated</p>
+        </div>
+
+        <div class="numbox">
+            <h1>98</h1>
+            <p>% Patient Satisfaction</p>
+        </div>
+
+        <div class="numbox">
+            <h1>24/7</h1>
+            <p>Emergency Care</p>
+        </div>
+
+    </section>
+
+    <section class="testimonials">
+
+        <div class="test">
+            <span><i class="fa-regular fa-message"></i> TESTIMONIALS</span>
+            <h1>What Our Patients Say</h1>
+            <p>Thousands of patients trust CardioCare with their heart health. Here are<br> their stories.</p>
+        </div>
+
+
+        <div id="carouselMultiple" class="carousel slide" data-bs-ends="stop"
+            style="--bs-carousel-items: 3; --bs-carousel-items-gap: 1rem;">
+            <div class="d-flex justify-content-between align-items-center">
+                <h5 class="mb-0"></h5>
+                <div>
+                    <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselMultiple"
+                        data-bs-slide="prev" style="--bs-carousel-control-icon-width: 1rem;">
+                        <span class="carousel-icon-prev" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselMultiple"
+                        data-bs-slide="next" style="--bs-carousel-control-icon-width: 1rem;">
+                        <span class="carousel-icon-next" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active"><img src="assets/blue.png" class="d-block w-100 rounded-5" alt="...">
+                </div>
+                <div class="carousel-item"><img src="assets/green.png" class="d-block w-100 rounded-5" alt="..."></div>
+                <div class="carousel-item"><img src="assets/orange.png" class="d-block w-100 rounded-5" alt="..."></div>
+                <div class="carousel-item"><img src="assets/purple.png" class="d-block w-100 rounded-5" alt="..."></div>
+                <div class="carousel-item"><img src="assets/red.png" class="d-block w-100 rounded-5" alt="..."></div>
+
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <section class="health">
+        <div class="test">
+            <span><i class="fa-solid fa-wifi"></i> Health Blog</span>
+            <h1>Heart Health Insights</h1>
+            <p>Expert articles on cardiology, preventive care, healthy living, and the latest in heart health research.
+            </p>
+        </div>
+
+        <div class="boot">
+
+            <section class="card" style="max-width: 320px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFFRhvkUZu1P39l7ZxkUDiczuZu0d9KucVZA5BtgdAaQ&s=10"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">10 Early Warning Signs of Heart Disease You Shouldn't Ignore</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                    <a href="#" class="btn-solid theme-primary">Read Article</a>
+                </div>
+            </section>
+            <section class="card" style="max-width: 320px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgvnqqsfjPFxw-CVIIFYM87pL5S1AYvhYTl3JPT8NAXA&s=10"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">10 Early Warning Signs of Heart Disease You Shouldn't Ignore</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                    <a href="#" class="btn-solid theme-primary">Read Article</a>
+                </div>
+            </section>
+            <section class="card" style="max-width: 320px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWze190uo1hROWvuGfw6uSKVLfBcUp6Db6-p3H0bpfiA&s=10"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">10 Early Warning Signs of Heart Disease You Shouldn't Ignore</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                    <a href="#" class="btn-solid theme-primary">Read Article</a>
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+    <section class="faq">
+
+        <div class="test">
+            <span><i class="fa-solid fa-wifi"></i> FAQ's</span>
+            <h1>Frequently Asked Questions</h1>
+            <p>Everything you need to know about our services and booking process.</p>
+        </div>
+
+
+        <div class="faq-item">
+            <div class="ques">How do I book an appointment? <span class="plus">+</span></div>
+            <div class="ans">You can book online using the appointment form above, call our clinic directly at +1 (800)
+                CARDIO, or email us at care@cardiocare.com. We confirm all appointments within 2 business hours.</div>
+        </div>
+
+
+        <div class="faq-item">
+            <div class="ques">What heart conditions do you treat? <span class="plus">+</span></div>
+            <div class="ans">We treat a comprehensive range of cardiovascular conditions including coronary artery
+                disease,
+                heart failure, arrhythmias, hypertension, valvular heart disease, peripheral artery disease, and more.
+                Our
+                specialists are experienced in both common and complex cardiac conditions.</div>
+        </div>
+
+
+        <div class="faq-item">
+            <div class="ques">Do you offer telemedicine consultations? <span class="plus">+</span></div>
+            <div class="ans">Yes, we offer secure video consultations for follow-up visits, medication reviews, and
+                initial
+                assessments (where no physical examination is required). Telemedicine appointments are available Monday
+                through Saturday, 9AM to 5PM.</div>
+        </div>
+
+    </section>
+    <section class="input">
+        <div class="test">
+            <span><i class="fa-solid fa-wifi"></i></span>
+            <h1>Subscribe to Heart Health Updates</h1>
+            <p>Everything you need to know about our services and booking process.</p>
+        </div>
+
+        <input type="email" placeholder="enter your email address">
+        <button>Subscribe</button>
+        <p>No spam, ever. Unsubscribe at any time.</p>
+
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-left">
+                <div class="logo">
+                    <span class="logo-icon"><i class="fa-solid fa-heart"></i></span>
+                    <div>
+                        <h2>CardioCare</h2>
+                        <p>HEART SPECIALISTS</p>
+                    </div>
+                </div>
+
+                <p class="footer-desc">CardioCare is a premier cardiology clinic dedicated to delivering world-class
+                    heart care with compassion. Since 2003, we've been the most trusted cardiac practice in the region.
+                </p>
+
+                
+                <div class="social">
+                    <span>Follow Us:</span>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="yt"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            
+
+        <div class="footer-links">
+            <div>
+                <h4>Medical Services</h4>
+                <p>Heart Consultation</p>
+                <p>ECG & Diagnostics</p>
+                <p>Hypertension Care</p>
+            </div>
+            <div>
+                <h4>Patient Resources</h4>
+                <p>Book Appointment</p>
+                <p>Patient Portal</p>
+                <p>Telehealth</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <p>About Doctor</p>
+                <p>Departments</p>
+                <p>Health Blog</p>
+            </div>
+            <div>
+                <h4>Working Hours</h4>
+                <p>Monday <span>8AM - 8PM</span></p>
+                <p>Tuesday <span>8AM - 8PM</span></p>
+            </div>
+            <div>
+                <h4>Contact Info</h4>
+                <p><i class="fa-solid fa-location-dot"></i> 123 Medical Center Dr, New York</p>
+                <p><i class="fa-solid fa-phone"></i> +1 (800) CARDIO</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+        crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>
